@@ -1,0 +1,7 @@
+Main Project Structure
+web_scraping.py: Contains functions for web scraping.
+text_processing.py: Includes text preprocessing and indexing functions.
+searching.py: Implements searching and ranking algorithms.
+filtering.py: Adds functionality for refining searches with filters.
+feedback.py: Manages the feedback capture mechanism.
+assessment.py: Implements assessment components.
