@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>Gutenberg Book Recommender</title>
+    <title>BOOK RECOMMENDATION SYSTEM</title>
 </head>
 <body>
     <div class="container">
-        <h1>Gutenberg Book Recommender</h1>
+        <h1>BOOK RECOMMENDATION SYSTEM</h1>
         <form action="/search" method="post">
             <label for="query">Enter your search query:</label>
             <input type="text" id="query" name="query" required>
@@ -25,6 +25,7 @@
                         <li>{{ result['title'] }} - {{ result['score'] }}</li>
                     {% endfor %}
                 </ul>
+                <p>Time taken to search: {{ time_taken }} seconds</p>
             {% endif %}
         </div>
     </div>
