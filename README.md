@@ -1,2 +1,2 @@
-# IR-Project-
+# IR-Project
 Book Recommendation System
